@@ -4,8 +4,17 @@ import Demo_one from "./demo/demo-1";
 
 
 class App extends React.Component {
+
+
+
   render() {
-    return <Demo_one />
+    return (
+        <div>
+          <Demo_one inputValue="VietNamese"  />
+      </div>
+    )
+  
+
   }
 }
 
